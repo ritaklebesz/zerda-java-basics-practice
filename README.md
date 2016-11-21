@@ -99,6 +99,9 @@ Blackberry is created
 ```
 
 #### Explain what you did, and answer the questions here:
+We did not call the method with the object.
+We should have write:
+System.out.println(b.getNumber());
 
 
 ## 4. Question time! (~20 mins) [6p]
