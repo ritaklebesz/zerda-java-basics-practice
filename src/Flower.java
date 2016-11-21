@@ -11,7 +11,7 @@ public class Flower extends Plant {
     @Override
     public void changeThirsty(double waterGiven) {
         if (waterState + waterGiven*0.75 >= 5) {
-            isThirsty = true;
+            isThirsty = false;
         }
     }
 }

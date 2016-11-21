@@ -10,7 +10,7 @@ public class Tree extends Plant {
     @Override
     public void changeThirsty(double waterGiven) {
         if (waterState + waterGiven*0.4 >= 10) {
-            isThirsty = true;
+            isThirsty = false;
         }
     }
 }
