@@ -8,11 +8,13 @@ public class App {
         garden.add(new Flower("blue"));
         garden.add(new Tree("purple"));
         garden.add(new Tree("orange"));
-        garden.printGarden();
+        System.out.println(garden.toString());
+        System.out.println("Watering with 40");
         garden.watering(40);
-        garden.printGarden();
+        System.out.println(garden.toString());
+        System.out.println("Watering with 70");
         garden.watering(70);
-        garden.printGarden();
+        System.out.println(garden.toString());
     }
 
 

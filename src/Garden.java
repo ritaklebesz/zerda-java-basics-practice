@@ -22,15 +22,15 @@ public class Garden {
         return garden.size();
     }
 
-    public void printGarden() {
+    public String toString() {
+        String print = "";
         for (int i=0; i < garden.size(); i++) {
-            System.out.println(garden.get(i).needWater());
+            print += garden.get(i).needWater() + "\n";
         }
-        System.out.println();
+        return print;
     }
 
     public void watering(double waterAvailable) {
-        System.out.println("Watering with " + (int) waterAvailable);
         ArrayList<Plant> thirstyPlants = new ArrayList<>();
         for (Plant plant : garden) {
             if (plant.isThirsty) {
