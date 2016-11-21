@@ -105,9 +105,12 @@ Blackberry is created
 
 ### Whats the difference between a Class and an Object? [2p]
 #### Your answer:
+A class is a template or "blueprint" for an objects. A class defines the properties of the objects, and commonly the default values of them. In addition, a class also contains the methods, that can be executed with the object, hence it descibes the behavior of the object. An object is an "instance", an actual representation of a class, whit actual values provided for the constructor or the default values, if nothing was given.
 
 ### What is the superclass when a class doesnt extend anything? What methods will it inherit (the two most important is enough)? [2p]
 #### Your answer:
+The default superclass is the Object class. Inherited methods include: toString(), equals(Object o), getClass().
 
 ### What is polymorphism? [2p]
 #### Your answer:
+Subclasses inherit the properties and behaviors (fields and methods) from their superclass, in addition they can have additional fields and methods, and/or can overwrite some of the methods, fields of their superclass.
